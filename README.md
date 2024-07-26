@@ -21,3 +21,10 @@ Directory Structure
         ├── modeling    <- scripts for generating models
     |--- environment.yml <- file with libraries and library versions for recreating the analysis environment
    
+   # Create Python environment
+
+```bash
+conda create -n credit_recovery python=3.11.5
+conda activate credit_recovery
+pip install -r requirements.txt
+```
